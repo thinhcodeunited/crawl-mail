@@ -1,0 +1,117 @@
+body {
+    background: #f1f1f1;
+    color: #444;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 13px;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+#export-mail {
+    max-width: 1000px;
+    text-align: center;
+    background: #ffffff;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+#export-mail .header {
+    padding: 20px;
+}
+
+#export-mail #content .loading {
+    float: left;
+    width: 100%;
+    font-size: 18px;
+
+}
+
+#export-mail #content .loading .status {
+    float: left;
+    line-height: 3.125rem;
+}
+
+#export-mail #content .loading .status.run {
+    color: #00dc00;
+}
+
+#export-mail #content .loading .status.error {
+    color : #FF0000;
+}
+
+#export-mail #content .loading span {
+    margin-right: 10px;
+}
+
+#export-mail #content .loading .loading-image {
+    vertical-align: middle;
+    width: 30px;
+}
+
+#export-mail #content .export-label {
+    float: left;
+    font-size: 16px;
+    display: inline-block;
+    min-width: 9.25rem;
+    max-width: calc(100% - 9.25rem);
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    margin: 0;
+    line-height: 3.125rem;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.03125rem;
+    padding-right: 0.625rem;
+    text-align: left;
+    padding-left: 30px;
+}
+
+#export-mail #content select {
+    float: left;
+    font-size: 16px;
+    line-height: 2;
+    color: #32373c;
+    background: #fff no-repeat right 5px top 55%;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0;
+    padding: 15px 30px 15px 10px;
+    border: 1px solid #ddd;
+    height: 50px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    width: 60%;
+}
+
+#export-mail #content select:focus {
+    border-color: #ff8726;
+    outline: none;
+}
+
+
+#export-mail #content #export-data {
+    text-align: center;
+    background-color: #ff8726;
+    color: #fff;
+    margin: 30px;
+    padding: 20px 50px;
+    border: 1px solid #ff8726;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 0.125rem;
+    transition: all ease 0.5s;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+}
+
+#export-mail #content #export-data:focus {
+    outline: none;
+}
